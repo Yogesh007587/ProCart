@@ -1,0 +1,26 @@
+.advertisementFour_main{
+    height: 420px;
+    width: 330px;
+    background-color: #fff;
+    margin:10px 10px;
+}
+.advertisement_header{
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: bold;
+    padding: 15px;
+}
+.advertisement_image{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.addFourImage{
+    width: 130px;
+    height: 130px;
+    margin: 8px;
+}
+.advertisement_footer{
+    padding: 20px;
+}

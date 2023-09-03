@@ -1,0 +1,223 @@
+*{
+    cursor: pointer;
+    /* overflow: hidden; */
+    /* box-sizing: border-box; */
+}
+/* NavBar */
+
+.NavBar{
+    width: 100%;
+    height: 60px;
+    background-color: #131A22;
+    display: flex;
+}
+.left{
+    display: flex;
+    margin: 10px 0px 10px 10px;
+    height: 43px;
+}
+.left:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.Nav_Image{
+    margin: 12px 0px 12px 10px;
+    background: url('https://ik.imagekit.io/cg8ipjbwx/amazon-image/sprite_350x.png?updatedAt=1692620785010') no-repeat -9px -50px;
+	width: 98px;
+	height: 31px;
+}
+.in{
+    color: white;
+    margin: 13px 10px 0px 0px;
+}
+.navbar_locator{
+    display: flex;
+    height: 43px;
+    margin: 10px 15px 10px 0px;
+}
+.navbar_locator:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.location_image{
+    /* background: url('https://ik.imagekit.io/cg8ipjbwx/amazon-image/sprite_350x.png?updatedAt=1692620785010') no-repeat -70px -378px;
+	width: 16px;
+	height: 18px; */
+    color: white;
+    margin: 20px 0px 10px 10px;
+}
+.address_hello{
+    margin-left: 3px;
+}
+.hello{
+    font-size: small;
+    color: #CCC;
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    /* float: left; */
+    display: inline-block;
+    
+}
+.location{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+.navbar_input_search{
+    display: flex;
+}
+#options{
+    width: 60px;
+    height:43.31px;
+    margin-top: 8px;
+    /* margin-left: 10px; */
+    border-radius: 5px 0px 0px 5px;
+    background-color: #E6E6E6;
+    text-align-last: center;
+}
+.navbar_input{
+    width: 32vw;
+    height: 38px;
+    margin-top: 8px;
+    color: #111;
+    cursor: text;
+    font-size: large;
+}
+.search_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3A847;
+    width: 40px;
+    height: 43px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 8px;
+}
+.right{
+    color: white;
+    display: flex;
+}
+.language{
+    margin: 10px 0px 10px 20px;
+    padding: 15px 15px 10px;
+}
+.language:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.language_used{
+    font-weight: bold;
+}
+.signin_hello{
+    width: 130px;
+    color: white;
+    margin: 10px 0px 10px 0px;
+    padding: 5px 20px 10px;
+}
+.signin_hello:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.hello_text{
+    font-size: small;
+    color: #CCC;
+
+}
+.account_list{
+    font-weight: bold;
+    padding: 0px 0px 5px 0px;
+    margin: 0px 0px 5px 0px;
+}
+.returns_orders{
+    margin: 10px 0 10px 0px;
+    padding: 5px 15px 10px;
+    
+}
+.returns_orders:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.returns{
+    font-size: small;
+}
+.orders{
+    font-weight: bold;
+}
+.cart{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+}
+.cart:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.cart_image{
+    background: url("https://ik.imagekit.io/cg8ipjbwx/amazon-image/sprite_350x.png?updatedAt=1692620785010") no-repeat -9px -339px;
+	width: 40px;
+	height: 28px;;
+}
+.cart_item{
+    font-weight: bold;
+    position: relative;
+    left: -20px;
+    bottom: 10px;
+    color: #F08804;
+}
+.cart_text{
+    padding-top: 10px;
+    font-weight: bold;
+}
+/* NavBar */
+
+/* NavBar  Footer*/
+.navbar_footer{
+    width: 100%;
+    height: 39px;
+    background-color: #22303E;
+    color: white;
+    display: flex;
+}
+.navbar_footer_text{
+    margin: 0px;
+    padding: 5px 7px;
+    font-weight: bold;
+}
+.navbar_footer_text:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.three_icon_all{
+    font-weight: bold;
+    margin: 0px 0px 0px 20px;
+    padding: 5px 10px;
+    display: flex;
+}
+.three_icon_all:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.all{
+    margin-left: 4px;
+}
+.right_footer_image{
+    background: url("https://ik.imagekit.io/cg8ipjbwx/amazon-image/amazon%20image%20side.jpg?updatedAt=1693515396876") no-repeat 0 0;
+	width: 400px;
+	height: 39px;
+    margin-left: 120px;
+}
+.right_footer_image:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+
+
+/* NavBar  Footer*/
+
