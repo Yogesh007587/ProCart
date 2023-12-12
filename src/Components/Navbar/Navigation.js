@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faBars,faMagnifyingGlass,faLocationDot} from '@fortawesome/free-solid-svg-icons';
+import {faMagnifyingGlass,faLocationDot} from '@fortawesome/free-solid-svg-icons';
 import "./Navigation.css";
 
 class NavBar extends Component {
@@ -13,8 +13,8 @@ class NavBar extends Component {
             <div>
                 <div className='NavBar'>
                     <div className="left" type='button'>
-                        <div className='Nav_Image' type='button' onClick={() => { alert("Welcome to Amazon") }}></div>
-                        <span className='in' type='button'>.in</span>
+                        <div className='Nav_Image' type='button' onClick={() => { alert("Welcome to ProCart") }}></div>
+                        {/* <span className='in' type='button'>.in</span> */}
                     </div>
                     <div className="navbar_locator" type='button' onClick={() => console.log('Hello World')}>
                         <div className="location_image"><FontAwesomeIcon icon={faLocationDot} size="lg" /></div>
@@ -24,14 +24,12 @@ class NavBar extends Component {
                         </div>
                     </div>
                     <div className='navbar_input_search'>
-                        <div>
+                        {/* <div>
                             <select name="" id="options">
                                 <option selected="selected" value="search-alias=aps">All Categories</option>
                                 <option value="search-alias=alexa-skills">Alexa Skills</option>
-                                <option value="search-alias=amazon-devices">Amazon Devices</option>
-                                <option value="search-alias=fashion">Amazon Fashion</option>
-                                <option value="search-alias=nowstore">Amazon Fresh</option>
-                                <option value="search-alias=amazon-pharmacy">Amazon Pharmacy</option>
+                                <option value="search-alias=amazon-devices">Devices</option>
+                                <option value="search-alias=amazon-pharmacy">Pharmacy</option>
                                 <option value="search-alias=appliances">Appliances</option>
                                 <option value="search-alias=mobile-apps">Apps &amp; Games</option>
                                 <option value="search-alias=audible">Audible Audiobooks</option>
@@ -70,9 +68,9 @@ class NavBar extends Component {
                                 <option value="search-alias=videogames">Video Games</option>
                                 <option value="search-alias=watches">Watches</option>
                             </select>
-                        </div>
+                        </div> */}
                         <div className=''>
-                            <input type="text" className='navbar_input' placeholder='Search Amazon.in' />
+                            <input type="text" className='navbar_input' placeholder='Search ProCart.in' />
                         </div>
                         <div className="search_image" type="button" onClick={() => alert(`You've clicked the search button`)}><FontAwesomeIcon icon={faMagnifyingGlass} size="lg"/></div>
                     </div>
@@ -95,21 +93,21 @@ class NavBar extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="navbar_footer">
-                    <div className="three_icon_all">
+                {/* <div className="navbar_footer"> */}
+                    {/* <div className="three_icon_all">
                     <div className="icon"><FontAwesomeIcon icon={faBars} /></div>
                     <div className="all">All</div>
-                    </div>
-                    <div className="navbar_footer_text">Amazon miniTV</div>
-                    <div className="navbar_footer_text">Sell</div>
+                    </div> */}
+                    {/* <div className="navbar_footer_text">Amazon miniTV</div> */}
+                    {/* <div className="navbar_footer_text">Sell</div>
                     <div className="navbar_footer_text">Best Sellers</div>
                     <div className="navbar_footer_text">Today's Deals</div>
                     <div className="navbar_footer_text">Mobiles</div>
                     <div className="navbar_footer_text">New Releases</div>
-                    <div className="navbar_footer_text">Customer Service</div>
-                    <div className="navbar_footer_text">Prime</div>
-                    <div className="right_footer_image"></div>
-                </div>
+                    <div className="navbar_footer_text">Customer Service</div> */}
+                    {/* <div className="navbar_footer_text">Prime</div> */}
+                    {/* <div className="right_footer_image"></div> */}
+                {/* </div> */}
             </div>
         );
     }

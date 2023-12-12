@@ -8,7 +8,7 @@ export default function LeftSidePanel(props) {
     return (
         <div className='leftSide_sidebar'>
             <div>
-                <div className="category">
+                <div className="margin-down">
                     <span className='cat'>Category</span>
                 </div>
                 <ul>
@@ -68,15 +68,56 @@ export default function LeftSidePanel(props) {
                     <span className='class-bold'>Made for Amazon Brands</span>
                 </div>
                 <ul>
+                    <li className='margin-down'>
+                        <span>
+                            <a href="">
+                                <div className='custom-checkbox margin-down'>
+                                    <label htmlFor="checkbox_content" className='list_hover'>
+                                        <input type="checkbox" id="checkbox_content"/>
+                                        <span>
+                                            <span className='checkbox-height span-margin'>Made for Amazon</span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div className='margin-down'>
+                    <span className='class-bold'>Amazon Prime</span>
+                </div>
+                <ul>
+                    <li>
+                        <span>
+                            <a href="">
+                                <div className='custom-checkbox margin-down'>
+                                    <label htmlFor="checkbox_content1">
+                                        <input type="checkbox" name="" id="checkbox_content1" />
+                                        <span>
+                                            <img src="https://ik.imagekit.io/cg8ipjbwx/amazon-image/prime_img.png?updatedAt=1693747377981" alt="nothing" style={{height:"15px",marginLeft:"5px",marginTop:"2px"}}/>
+                                        </span>
+                                    </label>
+                                </div>
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div className='margin-down'>
+                    <span className='class-bold'>Pay on Delivery</span>
+                </div>
+                <ul>
                     <li>
                         <span>
                             <a href="">
                                 <div>
-                                    <label htmlFor="checkbox_content">
-                                        <input type="checkbox" id="checkbox_content"/>
-                                        <i></i>
+                                    <label htmlFor="">
+                                        <input type="checkbox" />
                                         <span>
-                                            <span className='list_hover'>Made for Amazon</span>
+                                            <span>Eligible for Pay On Delivery</span>
                                         </span>
                                     </label>
                                 </div>

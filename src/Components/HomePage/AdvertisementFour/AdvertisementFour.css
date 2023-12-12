@@ -18,9 +18,13 @@
 }
 .addFourImage{
     width: 130px;
-    height: 130px;
+    height: 120px;
     margin: 8px;
 }
 .advertisement_footer{
     padding: 20px;
+    color: #147c85;
+}
+.advertisement_footer:hover{
+    color: #ff6161;
 }

@@ -16,4 +16,8 @@
 }
 .advertisementOne_footer{
     padding: 15px;
+    color: #147c85;
+}
+.advertisementOne_footer:hover{
+    color: #ff6161;
 }

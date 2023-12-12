@@ -10,31 +10,36 @@
     height: 60px;
     background-color: #131A22;
     display: flex;
+    position: fixed;
+    
 }
 .left{
     display: flex;
-    margin: 10px 0px 10px 10px;
-    height: 43px;
+    margin: 0px 0px 0px 10px;
+    height: 50px;
 }
 .left:hover{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 2px;
 }
 
 .Nav_Image{
-    margin: 12px 0px 12px 10px;
-    background: url('https://ik.imagekit.io/cg8ipjbwx/amazon-image/sprite_350x.png?updatedAt=1692620785010') no-repeat -9px -50px;
-	width: 98px;
-	height: 31px;
+    margin: 0px 0px 12px 10px;
+    background: url('https://ik.imagekit.io/cg8ipjbwx/amazon-image/ProCart.jpeg%20(1).jpg?updatedAt=1702369349268');
+    background-size: cover;
+	width: 100px;
+	height: 60px;
+    color: black;
+    
 }
-.in{
+/* .in{
     color: white;
     margin: 13px 10px 0px 0px;
-}
+} */
 .navbar_locator{
     display: flex;
     height: 43px;
-    margin: 10px 15px 10px 0px;
+    margin: 10px 15px 10px 10px;
 }
 .navbar_locator:hover{
     border: 1px solid white;
@@ -71,15 +76,15 @@
 .navbar_input_search{
     display: flex;
 }
-#options{
+/* #options{
     width: 60px;
     height:43.31px;
-    margin-top: 8px;
+    margin-top: 8px; */
     /* margin-left: 10px; */
-    border-radius: 5px 0px 0px 5px;
+    /* border-radius: 5px 0px 0px 5px;
     background-color: #E6E6E6;
-    text-align-last: center;
-}
+    text-align-last: center; */
+/* } */
 .navbar_input{
     width: 32vw;
     height: 38px;
@@ -92,7 +97,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F3A847;
+    background-color: #ff6161;
     width: 40px;
     height: 43px;
     border-radius: 0px 5px 5px 0px;

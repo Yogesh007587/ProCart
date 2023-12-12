@@ -1,8 +1,9 @@
 .MainPage{
-    height: 100%;
+    height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: 100vw;
     background-color: #EAEDED;
+    /* margin-top: 60px; */
 }
 
